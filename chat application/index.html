@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CODTECH Chat Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h2>💬 Chat Application</h2>
+      <button id="mode-toggle">🌙</button>
+    </header>
+
+    <main class="chat-box" id="chat-box">
+      <div class="message system">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="avatar" alt="">
+        <div class="bubble">
+          <p>Welcome to CODTECH Chat!</p>
+          <span class="time">Now</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="typing-indicator" id="typing-indicator">Someone is typing...</div>
+
+    <div class="chat-input">
+      <input type="text" id="message-input" placeholder="Type your message..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
