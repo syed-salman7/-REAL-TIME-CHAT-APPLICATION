@@ -23,3 +23,6 @@ Tools Used:
 - VS Code for development
 
 - Optional: Bootstrap / Tailwind CSS for responsive styling
+
+##OUTPUT
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/20d32e86-df74-421a-97c6-cc5ff49831fb" />
